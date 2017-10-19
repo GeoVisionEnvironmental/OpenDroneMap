@@ -15,7 +15,8 @@ install() {
     ## Before installing
     echo "Updating the system"
     sudo apt-get update
-
+    sudo apt-get install -y software-properties-common python-software-properties
+    
     sudo add-apt-repository -y ppa:ubuntugis/ppa
     sudo apt-get update
 
