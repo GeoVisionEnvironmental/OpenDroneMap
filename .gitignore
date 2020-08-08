@@ -4,7 +4,12 @@ include/
 lib/
 logs/
 share/
+
+
 src/
+
+!modules/*
+
 download/
 
 SuperBuild/build/
@@ -17,5 +22,6 @@ LAStools.zip
 pcl.tar.gz
 ceres-solver.tar.gz
 *.pyc
-pcl.tar.gz
 opencv.zip
+settings.yaml
+.setupdevenv
